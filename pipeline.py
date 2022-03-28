@@ -114,7 +114,7 @@ def main():
 
     csvdir = os.path.join(args.csvDir, os.path.basename(args.videoPath).split('.')[0])
     if not os.path.exists(csvdir):
-        os.mkdir(csvdir)
+        os.makedirs(csvdir)
 
     if args.gpus>1:
         p = ThreadPoolExecutor(args.gpus)
