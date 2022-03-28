@@ -3,7 +3,7 @@ import argparse
 def parse_opts():
     parser = argparse.ArgumentParser()
     # main
-    parser.add_argument('--videoPath', type=str, default='', help='Demo video path')
+    parser.add_argument('--videoPath', type=str, default='demo/demo_video.mov', help='Demo video path')
     parser.add_argument('--nGuest', type=int, default=1, help='Number of participants')
     parser.add_argument('--gpus', type=int, default=2, help='Number of gpus')
 
