@@ -24,7 +24,7 @@ def smile_main():
             x2 = int(coord[2])
             y2 = int(coord[3])
             face = frames[i][int((y1+y2)/2):y2, x1:x2]
-            smiles = smile_detector.detectMultiScale(face, scaleFactor=1.8, minNeighbors=20)
+            smiles = smile_detector.detectMultiScale(face, scaleFactor=1.8, minNeighbors=30)
             if len(smiles)>0:
                 scores[id].append(1)
             else:
