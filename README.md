@@ -25,7 +25,7 @@ python pipeline.py --videoPath /path/to/video --nGuest <number of faces in the v
 ```
 Example:  
 ```
-python pipeline.py --videoPath demo/video.mp4 --nGuest 3 --gpus 2
+python pipeline.py --videoPath demo/demo_video.mov --nGuest 1 --gpus 2
 ```
 The operation time depends on the video duration, number of faces, number of gpus, etc.  
 You can find the results in the `demo` folder, which consists of two parts:  
