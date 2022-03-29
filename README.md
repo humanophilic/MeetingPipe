@@ -39,3 +39,6 @@ It is not recommended to use cpu only, which is quite time-consuming and you nee
 We study several useful project during our coding process, you can reference from:
 1. Active speaker detection module is learnt from this [repository](https://github.com/TaoRuijie/TalkNet-ASD).
 2. Head pose estimation module is learnt from this [repository](https://github.com/thohemp/6DRepNet).
+
+# Contact us
+For any questions or requests, please contact us at chen.chenhao@arakawa-lab.com
