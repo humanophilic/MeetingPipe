@@ -41,4 +41,4 @@ We study several useful project during our coding process, you can reference fro
 2. Head pose estimation module is learnt from this [repository](https://github.com/thohemp/6DRepNet).
 
 # Contact us
-For any questions or requests, please contact us at chen.chenhao@arakawa-lab.com
+For any questions or requests, please contact us at chen.chenhao.419@s.kyushu-u.ac.jp
