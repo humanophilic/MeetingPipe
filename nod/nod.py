@@ -102,10 +102,10 @@ def nod_main(vpath, gpu_id):
     preds_10 = []
     preds_10.append(preds_20[0])
     for idx in range(1, len(preds_20)-2, 2):
-        if preds_20[idx]==1 or preds_20[idx+1]==1:
-            preds_10.append(1)
+        if preds_20[idx]==0 or preds_20[idx+1]==0:
+            preds_10.append(0)
         else:
-            preds_10.append(preds_20[idx])
+            preds_10.append(1)
     preds_10.append(preds_20[-1])
 
     return [i for i in preds_10 for _ in range(10)]
