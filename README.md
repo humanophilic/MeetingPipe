@@ -13,9 +13,10 @@ pip install -r requirements.txt
 conda update ffmpeg
 ```
 ## Pretrained models
-1. Download face track model from [here](https://1drv.ms/u/s!Ar6PegAEDw6GjS3BKvn_ppCBPPgN?e=0LVd5M) and place it into `face_track/faceDetector/s3fd/sfd_face.pth`.
-2. Download ASD model from [here](https://1drv.ms/u/s!Ar6PegAEDw6GjS3BKvn_ppCBPPgN?e=0LVd5M) and place it into `speak/pretrain_TalkSet.model`
-3. Download HPE model from [here](https://1drv.ms/u/s!Ar6PegAEDw6GjS3BKvn_ppCBPPgN?e=0LVd5M) and place it into `nod/6DRepNet_300W_LP_AFLW2000.pth.`
+From [here](https://1drv.ms/u/s!Ar6PegAEDw6GjS3BKvn_ppCBPPgN?e=0LVd5M),
+1. Download face track model and place it into `face_track/faceDetector/s3fd/sfd_face.pth`.
+2. Download ASD model and place it into `speak/pretrain_TalkSet.model`
+3. Download HPE model and place it into `nod/6DRepNet_300W_LP_AFLW2000.pth.`
 ## Data preparation
 We build an end-to-end script that detects and recognizes three indicators, speaking, nodding and smile, from the input video.  
 You can place the raw video file (any video format that OpenCV supports: mp4, avi, etc.) into the `demo` folder.
