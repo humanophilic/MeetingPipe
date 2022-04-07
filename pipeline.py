@@ -16,7 +16,7 @@ args = parse_opts()
 from face_track.face_track import face_track_main
 from speak.speak import speak_main
 from nod.nod import nod_main
-from smile_v2.smile import smile_main
+from smile.smile import smile_main
 
 warnings.filterwarnings('ignore')
 
