@@ -28,7 +28,7 @@ def parse_opts():
     parser.add_argument('--snapshot', type=str, default='./nod/6DRepNet_300W_LP_AFLW2000.pth', help='6DRepNet snapshot path')
 
     # smile detection
-    parser.add_argument('--smileModel', type=str, default='./smile/ckpt/epoch_4.pth', help='Path for the pretrained smile model')
+    parser.add_argument('--smileModel', type=str, default='./smile/smilenet_epoch_4.pth', help='Path for the pretrained smile model')
 
     args, unparsed = parser.parse_known_args()
 
