@@ -14,9 +14,10 @@ conda update ffmpeg
 ```
 ## Pretrained models
 You can download the pretrained model from [here](https://drive.google.com/drive/folders/1-8VPqTqPFTBHVG_A2Ji_nH0nrOy4r7_e?usp=sharing):
-1. Download face track model and place it into `face_track/faceDetector/s3fd/sfd_face.pth`.
+1. Download face track model and place it into `face_track/faceDetector/s3fd/sfd_face.pth`
 2. Download Active Speaker Detection(ASD) model and place it into `speak/pretrain_TalkSet.model`
-3. Download Head Pose Estimation(HPE) model and place it into `nod/6DRepNet_300W_LP_AFLW2000.pth.`
+3. Download Head Pose Estimation(HPE) model and place it into `nod/6DRepNet_300W_LP_AFLW2000.pth`
+4. Download smile detection model and place it into `smile/smilenet_epoch_4.pth`
 ## Data preparation
 We build an end-to-end script that detects and recognizes three indicators, speaking, nodding and smile, from the input video.  
 You can place the raw video file (any video format that OpenCV supports: mp4, avi, etc.) into the `demo` folder.
